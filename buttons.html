@@ -8,7 +8,16 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
+        transition: opacity 0.15s;
     }
+
+    .subscribe-button:hover{ 
+        opacity: 0.8;
+    }
+    .subscribe-button:active{ 
+        opacity: 0.5;
+    }
+
     .join-button{
         background-color: #fff;
         border-color:rgb(0, 183, 255) ;
@@ -20,8 +29,15 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
+        transition: background-color 0.15s, color 0.15s;
     }
-
+    .join-button:hover{
+        background-color: rgb(0, 183, 255) ;
+        color: #fff;
+    }
+    .join-button:active{
+        opacity: 0.7;
+    }
     .tweet-button{
         background-color: rgb(0, 183, 255) ;
         color: #fff;
@@ -33,101 +49,14 @@
         font-size: 15px;
         cursor: pointer;
         margin-right: 8px;
+        transition: box-shadow 0.15s;
     }
-
-    .request-button{
-        background-color: #333;
-        color: rgb(240, 240, 240);
-        border: none;
-        height: 36px;
-        border-radius: 2px;
-        cursor: pointer;
-        width: 105px;
-        margin-right: 8px;
+    .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
     }
-    .add-cart-button{
-        background-color: rgb(255, 230, 0) ;
-        color: #333;
-        border: none;
-        height: 40px;
-        width: 200px;
-        border-radius: 20px;
-        font-weight: 600;
-        font-size: 18px;
-        cursor: pointer;
-        margin-right: 8px;
-    }
-    .signup-button{
-        background-color: rgb(36, 138, 53);
-        color: rgb(240, 240, 240);
-        border: none;
-        height: 46px;
-        border-radius: 5px;
-        font-weight: bold;
-        font-size: 15px;
-        cursor: pointer;
-        width: 105px;
-        margin-right: 8px;
-    }
-
-    .get-started-button{
-        background-color: rgb(108, 9, 108);
-        color: rgb(240, 240, 240);
-        border: none;
-        height: 46px;
-        border-radius: 5px;
-        font-weight: bold;
-        font-size: 15px;
-        cursor: pointer;
-        width: 130px;
-        margin-right: 8px;
-    }
-    .download-button{
-        background-color: #fff;
-        color: rgb(108, 9, 108);
-        border: 1px solid rgb(108, 9, 108);;
-        height: 46px;
-        border-radius: 5px;
-        font-weight: bold;
-        font-size: 15px;
-        cursor: pointer;
-        width: 130px;
-        margin-right: 8px;
-    }
-    .appy-button{
-        background-color: rgb(30, 67, 200) ;
-        color: #fff;
-        border: none;
-        height: 46px;
-        width: 300px;
-        border-radius: 23px;
-        font-weight: 600;
-        font-weight: bold;
-        font-size: 18px;
-        cursor: pointer;
-        margin-right: 8px;
-    }
-    .save-button{
-        background-color: #fff;
-        color: rgb(30, 67, 200);
-        border: 1px solid rgb(30, 67, 200);;
-        width: 105px;
-        height: 46px;
-        border-radius: 23px;
-        font-weight: bold;
-        font-size: 18px;
-        cursor: pointer;
-        margin-right: 8px;
-    }
+ 
 </style>
 <button class="subscribe-button">SUBSCRIBE</button>
 <button class="join-button">JOIN</button>
 <button class="tweet-button">Tweet</button>
-<!-- Exercises -->
-<button class="request-button">Request Now</button>
-<button class="add-cart-button">Add to Cart</button>
-<button class="signup-button">Sign up</button>
-<button class="get-started-button">Get Started</button>
-<button class="download-button">Download</button>
-<button class="appy-button">Apply on company website</button>
-<button class="save-button">Save</button>
+
