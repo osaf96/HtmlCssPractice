@@ -2,6 +2,14 @@
     height: 55px;
     display: flex;
     justify-content: space-between; 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #fff;
+    border-bottom: 1px solid #dedede;
+    z-index: 100;
+    margin-bottom: 20px;
 }
 
 .left-section{ 
