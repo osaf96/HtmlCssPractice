@@ -7,4 +7,4 @@ Positioning,
 Grid
 
 
-![youtube-practice-design](/assets/youtube-clone.png)
+![youtube-practice-design](assets/youtube-clone.png)
